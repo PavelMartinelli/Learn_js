@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анимация</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<form name="form1">
+    <h1>Создайте таблицу любого рамера!!!</h1>
+
+    <label>
+        <p style="font-size:large">Введите количество строк таблицы</p>
+        <input type="text" name ="row_count" width="5">
+    </label>
+    <label>
+        <p style="font-size: large">Введите количество столбцов таблицы</p>
+        <input type="text" name ="column_count" width="2">
+    </label><br><br>
+
+    <input style="width: 300px; height: 30px; font-size: medium;" type = "button" name = "gen"
+           value = "Сгенерировать таблицу" onclick = "drawTable()">
+    <input style="width: 300px; height: 30px; font-size: medium;" type = "button" name = "color"
+           value = "Показать магию" onclick = "Magic()">
+
+    <input style="width: 300px; height: 30px; font-size: medium;" type = "button" name = "color"
+           value = "Удалить таблицу" onclick = "location.reload(); return false;"><br><br>
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+input 0
+input 1
+mov 2 0
+add 0 2 3
+add 1 2 4
+div 3 4 5
+mult 4 5 5
+sub 3 5 5
+ifeq 5 2 41
+add 4 2 3
+add 5 2 4
+setip 15
+mult 0 1 6
+div 6 4 6
+output 6
+output 0
