@@ -13,4 +13,3 @@ setip 15
 mult 0 1 6
 div 6 4 6
 output 6
-output 0

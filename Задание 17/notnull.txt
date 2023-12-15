@@ -13,4 +13,3 @@ add 1 2 1
 ifeq 0 4 48
 setip 14
 output 1
-output 3
